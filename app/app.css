@@ -30,3 +30,43 @@
   content: "";
   padding: 0;
 }
+
+/**Fonts**/
+.arvo {
+  font-family: 'Arvo', serif;
+  font-size: 68px;
+}
+
+/**Colors**/
+.white {
+  color: #ffffff;
+}
+
+/**Alignments**/
+.center {
+  text-align: center;
+}
+
+.main-background-layer {
+  height: 800px;
+}
+
+.flat-blue {
+  background-color: #3498db;
+}
+
+.flat-dark-blue {
+  background-color: #2980b9;
+}
+
+.flat-green {
+  background-color: #2abb67;
+}
+
+.flat-gray-blue {
+  background-color: #34495e;
+}
+
+.flat-pumpkin {
+  background-color: #d35400;
+}
