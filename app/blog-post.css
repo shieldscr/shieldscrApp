@@ -1,12 +1,15 @@
 .blog-area {
     background-color: #ffffff;
     margin: auto;
-    width: 500px;
-    box-shadow: 2px 2px #424242;
+    float: center;
+    width: 75%;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.19), 0 16px 16px rgba(0,0,0,0.23);
+    border-radius: 2px;
 }
 
 .blog-post {
   text-align: center;
+  padding: 20px;
 }
 
 .blog-post .author {
@@ -23,4 +26,5 @@
 
 .blog-post .body {
   font-size: 16px;
+  text-align: justify;
 }
