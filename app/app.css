@@ -1,40 +1,18 @@
 /* app css stylesheet */
 
-.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
-
-.menu {
-  list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
-}
-
-.menu:before {
-  content: "[";
-}
-
-.menu:after {
-  content: "]";
-}
-
-.menu > li {
-  display: inline;
-}
-
-.menu > li:before {
-  content: "|";
-  padding-right: 0.3em;
-}
-
-.menu > li:nth-child(1):before {
-  content: "";
-  padding: 0;
-}
-
 /**Fonts**/
 .arvo {
   font-family: 'Arvo', serif;
+}
+
+.header {
+  font-weight: bold;
   font-size: 68px;
+}
+
+.subheader {
+  font-weight: bold;
+  font-size: 36px;
 }
 
 /**Colors**/
@@ -45,10 +23,6 @@
 /**Alignments**/
 .center {
   text-align: center;
-}
-
-.main-background-layer {
-  height: 800px;
 }
 
 .flat-blue {
@@ -69,4 +43,8 @@
 
 .flat-pumpkin {
   background-color: #d35400;
+}
+
+.main-content {
+  height: 2000px;
 }
