@@ -1,0 +1,26 @@
+.blog-area {
+    background-color: #ffffff;
+    margin: auto;
+    width: 500px;
+    box-shadow: 2px 2px #424242;
+}
+
+.blog-post {
+  text-align: center;
+}
+
+.blog-post .author {
+  font-size: 16px;
+}
+
+.blog-post .date {
+  font-size: 16px;
+}
+
+.blog-post .title {
+  font-size: 36px;
+}
+
+.blog-post .body {
+  font-size: 16px;
+}
