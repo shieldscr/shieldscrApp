@@ -6,12 +6,12 @@ angular.module('shieldsCrApp', [
   'shieldsCrApp.index',
   'shieldsCrApp.version'
 ]).
-config(['$routeProvider', function($routeProvider, $locationProvider) {
-  $routeProvider.when('/index', {
+config(['$routeProvider', function($routeProvider) {
+  $routeProvider.when('/', {
         templateUrl: 'index/index.html',
         controller: 'IndexController'
       })
-      .when('/', {
+      .when('/index', {
         templateUrl: 'index/index.html',
         controller: 'IndexController'
       })
