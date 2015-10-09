@@ -1,8 +1,8 @@
 'use strict';
 
-describe('myApp.index module', function() {
+describe('shieldsCrApp.index module', function() {
 
-  beforeEach(module('myApp.index'));
+  beforeEach(module('shieldsCrApp.index'));
 
   describe('index controller', function(){
 

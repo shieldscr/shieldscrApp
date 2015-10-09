@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.index', ['ngRoute'])
+angular.module('shieldsCrApp.index', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/index', {

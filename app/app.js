@@ -1,12 +1,19 @@
 'use strict';
 
 // Declare app level module which depends on views, and components
-angular.module('myApp', [
+angular.module('shieldsCrApp', [
   'ngRoute',
-  'myApp.index',
-  'myApp.view2',
-  'myApp.version'
+  'shieldsCrApp.index',
+  'shieldsCrApp.version'
 ]).
-config(['$routeProvider', function($routeProvider) {
-  $routeProvider.otherwise({redirectTo: '/index'});
+config(['$routeProvider', function($routeProvider, $locationProvider) {
+  $routeProvider.when('/index', {
+        templateUrl: 'index/index.html',
+        controller: 'IndexController'
+      })
+      .when('/', {
+        templateUrl: 'index/index.html',
+        controller: 'IndexController'
+      })
+      .otherwise({redirectTo: '/index'});
 }]);
